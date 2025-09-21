@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-family: Verdana;
+    font-size: 20pt;
+}
+h2{
+    text-align: right;
+    color: 800000;
+    font-family: Verdana;
+    font-size: 16pt;
+}
+h3{
+    text-align: left;
+    color: rgb(226, 145, 39);
+    font-family: Verdana;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-image: url(images/spisok_1.gif);
+}
+p{
+    text-align: justify;
+    color: 191970;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+body{
+    background-color: 99ccff;
+    background-image: url(images/fon9.jpg);
+}
+
+h1.main, h1.golub, h1.krasn, h1.zelen, h1.oranzhev{
+    text-align: left;
+    font-family: Verdana;
+    font-size: 14pt;
+}
+h1.main{
+    color: navy;
+}
+h1.golub{
+    color: blue;
+}
+h1.krasn{
+    color: red;
+}
+h1.zelen{
+    color: green;
+}
+h1.oranzhev{
+    color: orange;
+}
+
+p.main_text{
+    text-align: justify;
+    color: rgb(31, 31, 126);
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+p.golub_text{
+    text-align: right;
+    color: rgb(130, 130, 239);
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: lighter;
+}
+p.krasn_text{
+    text-align: left;
+    color: rgb(238, 130, 130);
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+p.zelen_text{
+    text-align: justify;
+    color: rgb(127, 237, 127);
+    font-family: Arial;
+    font-size: 12pt;
+}
+p.oranzhev_text{
+    text-align: center;
+    color: rgb(241, 202, 129);
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
